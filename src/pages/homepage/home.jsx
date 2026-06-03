@@ -8,7 +8,7 @@ const HomePage = () => {
       <HeaderSection />
       <div className="home-subcontainer">
         <div className="header-section">
-          <h1>More Than a Haircut - A Confidence Boost For A Male Figure </h1>
+          <h1>More Than a Haircut: A Confidence Boost For Men </h1>
           <h3>
             Experience premium grooming, sharp cuts, and personalized service
             designed to help you look your best and feel confident every day

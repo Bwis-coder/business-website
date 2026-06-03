@@ -12,7 +12,7 @@ const Services = () => {
 
         <h2>
           At Bwis Salon, we provide clean, professional haircuts designed to
-          help men look sharp and feel confident for every occasion—from
+          help men look sharp and feel confident for every occasion:from
           business meetings and job interviews to church services, special
           events, and everyday life. Explore our services below and find the
           perfect grooming experience for you.

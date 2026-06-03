@@ -10,12 +10,12 @@ const HeaderSection = () => {
     "If you need a haircut, book your appointment now.",
     "Need a fresh cut? Book now.",
     "Get your next haircut booked today.",
-    "Looking sharp starts here — book your haircut now.",
-    "Don’t wait for a fresh look — book now.",
-    "Your next fresh cut is one click away — book now.",
-    "Stay sharp, stay confident — book your haircut today.",
-    "Premium cuts, clean fades — book your appointment now.",
-    "Look your best every day — book now.",
+    "Looking sharp starts here: book your haircut now.",
+    "Don’t wait for a fresh look: book now.",
+    "Your next fresh cut is one click away : book now.",
+    "Stay sharp, stay confident: book your haircut today.",
+    "Premium cuts, clean fades: book your appointment now.",
+    "Look your best every day: book now.",
   ];
 
   useEffect(() => {
@@ -56,7 +56,7 @@ const HeaderSection = () => {
         </div>
 
         <button className="booking-button" onClick={bookAppointment}>
-          Book for a free consultation
+          Book Appointment
         </button>
       </div>
 
