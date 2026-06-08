@@ -51,12 +51,12 @@ const HeaderSection = () => {
             className={({ isActive }) => (isActive ? "active-link" : "")}
             to="/testimonials"
           >
-            <span>Testimonals</span>
+            <span>Reviews</span>
           </NavLink>
         </div>
 
         <button className="booking-button" onClick={bookAppointment}>
-          Book Appointment
+          Book Your Cut
         </button>
       </div>
 
