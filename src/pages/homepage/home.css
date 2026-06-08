@@ -8,8 +8,8 @@
   max-width: 120rem;
   background: #fff;
   padding-top: 9rem;
-  align-items:center;
-  margin-top:2.5rem
+  align-items: center;
+  margin-top: 2.5rem;
 }
 
 /* HERO SECTION */
@@ -29,7 +29,7 @@
   gap: 1.2rem;
   flex: 1;
   max-width: 60rem;
-  gap:0
+  gap: 0;
 }
 
 .header-section h1 {
@@ -65,8 +65,8 @@
   height: 45rem;
   object-fit: cover;
   border-radius: 20px;
-  flex:1;
-  margin-top:-2rem
+  flex: 1;
+  margin-top: -2rem;
 }
 
 .stats {
@@ -80,7 +80,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  margin-top: 0
+  margin-top: 0;
 }
 
 .stat-num {
@@ -102,10 +102,43 @@
   background: #ccc;
 }
 
+.working-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1rem;
+  justify-content: center;
+  margin-bottom: 0.6rem;
+}
+.working-hours h3 {
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #111;
+}
+.working-hours div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
 
+.working-hours p {
+  font-size: 2rem;
+  border: 1px solid black;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease;
+}
+
+.working-hours p:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 @media (max-width: 49rem) {
   html {
-    font-size:55%
+    font-size: 55%;
   }
 }
 
@@ -117,30 +150,30 @@
 
 @media (max-width: 39.12rem) {
   html {
-    font-size:46%
+    font-size: 46%;
   }
 }
 
 @media (max-width: 32.13rem) {
-  html{
-    font-size:40%
+  html {
+    font-size: 40%;
   }
 }
 
 @media (max-width: 28.6rem) {
   html {
-    font-size:37%
+    font-size: 37%;
   }
 }
 
 @media (max-width: 26rem) {
   html {
-    font-size:32%
+    font-size: 32%;
   }
 }
 
 @media (max-width: 22rem) {
   html {
-    font-size:30%
+    font-size: 30%;
   }
 }

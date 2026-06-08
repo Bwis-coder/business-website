@@ -29,9 +29,27 @@ const HomePage = () => {
               <span className="stat-label">Rating</span>
             </div>
           </div>
+
+          <div className="working-hours">
+            <h3>Open Hours</h3>
+            <div>
+              <p>
+                <span>Sunday</span> <span>10am-5pm</span>
+              </p>
+              <p>
+                <span>Monday-Friday</span> <span>10am-8pm</span>
+              </p>
+              <p>
+                <span>Saturday</span> <span>10am-6pm</span>
+              </p>
+            </div>
+          </div>
         </div>
         <div className="image-container">
-          <img src={baber} />
+          <img
+            src={baber}
+            alt="Professional barber giving a men's haircut in a modern barbershop"
+          />
         </div>
       </div>
     </div>
